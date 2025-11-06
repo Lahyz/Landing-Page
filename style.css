@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Lexend+Giga:wght@100..900&display=swap');
+
+:root {
+    --cor1: #E1830D;
+    --cor2: #DCA059;
+    --cor3: #F2EBC9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;    
+}
+
+body {
+    background-color:#dca1596e;
+}
+
+.menu {
+    background-color: #E1830D;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+        
+}
+
+.menu > img {
+    height: 70px;
+    margin: 20px;
+}
+
+nav {
+    display: flex;
+    gap: 50px;    
+}
+
+nav > a {
+    color: white;
+    font-family: "Bebas Neue", sans-serif; 
+    font-size: 20px;
+    border-radius: 5px;    
+    padding: 10px;
+}
+
+nav > a:hover {    
+ background-color: white;
+ color: var(--cor1);
+ transition: .5s;
+}
+
+h1 {    
+    font-family: "Dancing Script", cursive;
+    font-size: 100px;
+    color: var(--cor1);
+    text-shadow: 2px 2px 0px var(--cor2);    
+}
+
+.part1 {
+    display: flex;
+    align-items: center;
+    padding: 0px 50rem;
+}
+
+.part2 {
+    display: flex;   
+    gap: 30rem;
+    margin-top: 10rem;
+    justify-content: center;
+}
+
+h2 {
+    font-family:"Lexend Giga", sans-serif;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.174); 
+}
+
+button {
+    margin: 30px 9rem;
+    height: 50px;
+    width: 120px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: var(--cor2);
+    font-family: "Lexend Giga", sans-serif;
+}
+
+button:hover {
+    background-color: var(--cor1);
+    color: white;
+    transition: .5s;
+}
+
+h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.motivos {
+    background-color: #E1830D;
+    border-radius: 20px;
+    height: 10rem;
+    width: 25rem;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.motivos > p {
+    color: white;
+    font-family: sans-serif;
+    margin-bottom: 7px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
